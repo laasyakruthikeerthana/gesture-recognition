@@ -3,8 +3,8 @@ import cv2
 
 camera = cv2.VideoCapture(0)
 
-while True:
-ret, frame = camera.read()
+while True: 
+    ret, frame = camera.read()
 
 ```
 cv2.imshow("Gesture Recognition", frame)
